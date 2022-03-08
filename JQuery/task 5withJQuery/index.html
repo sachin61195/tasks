@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JQuery-Task-5</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="index.js" defer></script>
+</head>
+<body>
+    <h1>Movies</h1>
+    <div class="flex-container">
+    <button id="show">show</button>
+     <button id="add">add</button>
+    <button id="search">search</button>
+    <button id="delete">delete</button> 
+</div>
+<div class="div-item  hide" id="div1"><input type="text" name="" id="del" placeholder="Enter Id">
+<button id="delete_data">Delete</button></div>
+
+<div class="div-item  hide" id="div2">
+    <input type="text" name="" id="input_value" class="input-data" placeholder="Enter Movies Name">
+    <input type="text" name="" id="input_value1" class="input-data"  placeholder="Enter year">
+   </div>
+    <table id="table" border="1" class="hide" cellspacing="0" cellpadding="10">
+      
+    </table>
+    <form action="#table" onsubmit="return false"  enctype="multipart/form-data" class="hide">
+        <label for="title">Title</label>
+        <input type="text" name="title" id="title">
+
+        <label for="duration">Duration</label>
+        <input type="text" name="title" id="duration">
+
+        <label for="year">Year</label>
+        <input type="year" name="year" id="year">
+
+        <label for="poster">Poster</label>
+        <input type="file" name="poster" id="poster">
+
+        <label for="rating">Imd rating</label>
+        <input type="rating" name="rating" id="rating">
+
+        <button type="submit" id="save" > upload </button>
+        
+    </form>
+    
+</body>
+</html>

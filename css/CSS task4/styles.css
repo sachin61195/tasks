@@ -1,0 +1,86 @@
+body{
+  background-color: rgb(202, 198, 198);
+}
+.container{
+  background-color: white;  
+  width: 80%;
+  margin: auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+  border-style: double;
+  color: rgb(68, 23, 23);
+}
+.c0{
+ display: flex;
+ justify-content: center;
+}
+
+.c0 img{
+  margin-top: 10px;
+}
+
+.c1 h1{
+    text-align: center;
+    font-size: xxx-large;
+    margin-top: -10px;
+    font-weight: bolder;
+}
+.c2 h2{
+    text-align: center;
+    font-family: 'The Nautigal', cursive;
+    font-size: xxx-large;
+    margin-top: -30px;
+}
+hr.c3{
+    border: 2px solid black;
+    width: 60%;
+    margin: auto;
+}
+hr.c4{
+    border: 1px solid black;
+    width: 60%;
+    margin: auto;
+}
+.c5{
+  width: 60%;
+  padding-top: 20px;
+  margin: auto;
+  letter-spacing: 3px;
+  color: black;
+    
+}
+/* Add a black background color to the top navigation */
+.topnav {
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    color: black;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: rgb(151, 109, 109);
+    color: black;
+  }
+  
+  /* Add a color to the active/current link */
+  .topnav a.active {
+    color: rgb(116, 90, 90);
+  }
+  .main_img{
+      margin-top: 20px;
+  }
+  .item2 h1{
+    
+  }

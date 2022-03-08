@@ -1,0 +1,37 @@
+<!Doctype Html>
+<html>
+<body>
+  <form>
+    <fieldset>
+        <legend>Your Details</legend>
+        <label for="">Name:</label>
+        <input type="text" name="name" required><br> 
+        <label for="">Email:</label>
+        <input type="email" name="email" required> 
+    </fieldset><br/>
+    <fieldset>
+        <legend>Your Review</legend>
+        <label for="social">How did you hear about us:</label>
+
+        <select name="social" required>
+          <option value="facebook">Facebook</option>
+          <option value="youtube">Youtube</option>
+          <option value="google" selected>Google</option>
+          <option value="twitter">Twitter</option>
+        </select> <br/><br/>
+        <label>Would you visit again?</label><br/>
+        <input type="radio"  name="fav_language" value="yes" required>
+        <label for="html">Yes</label>
+        <input type="radio"  name="fav_language" value="no" required>
+        <label for="css">No</label>
+        <input type="radio"  name="fav_language" value="maybe" required>
+        <label for="javascript">Maybe</label><br/><br/>
+        <label for="txt_area">Comments</label><br/>
+        <textarea id="txt_area" name="txt_area" rows="4" cols="50" required></textarea><br/><br/>
+        <input type="checkbox" id="sign" name="sign" value="checked" checked required>
+        <label for="vehicle3">Sign me up for email updates</label><br>
+        <input type="submit" value="Submit review">
+    </fieldset>
+  </form>
+</body>
+</html>

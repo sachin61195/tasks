@@ -1,0 +1,37 @@
+body{
+    background-color: cadetblue;
+}
+.container{
+    margin-top: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    background-color: bisque;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+input[type="text"], select{
+    width: 200px;
+    height: 25px;
+    margin-top: 5px;
+    border-radius: 10px;
+}
+.hide{
+    display: none;
+}
+.show{
+    display: block;
+}
+.label{
+    font-size: large;
+    font-weight: bold;
+}
+input[type="submit"]{
+    background-color: green;
+    color: white;
+    padding: 8px;
+    font-size: larger;
+}

@@ -1,0 +1,69 @@
+#data{
+    border-radius:10px;
+    border-collapse: collapse;
+    overflow: hidden;
+    width: 65%;
+}
+#data td, #data th{
+    border: 1px solid black;
+    padding: 8px;
+}
+#data th{
+    text-align: center;
+    background-color: #367ba3;
+    color: white;
+    border-bottom: solid black 5px;
+    font-family: 'Courier New', Courier, monospace;
+}
+#data td{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+input:focus,input:hover{
+    background-color: grey;
+    outline-style: solid;
+  outline-color: black;
+  outline-width: thick;
+}
+input[type="submit"]:hover{
+    background-color: white;
+    color: black;
+    outline-color: white;
+    outline-width: 0in;
+}
+legend{
+    font-style: italic;
+}
+
+#data td:first-child {
+    font-weight: bold;
+}
+
+tr:nth-child(even){
+    background-color: lightgrey;
+}
+.form{
+    margin-top: 20px;
+    width: 30%;
+}
+.form0{
+    width:100%;
+}
+.form1{
+    width: 45%;
+    float: right;
+}
+.form1{
+    width: 45%;
+    float: left;
+}
+.submit_btn{
+    float: right;
+    margin-right: 40px;
+    border-radius: 4px;
+    background-color: hsl(122, 25%, 37%);
+    color: white;
+}
+ul{
+    list-style-image: url("pointer.png");
+    line-height: 40px;
+}

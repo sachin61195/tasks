@@ -1,0 +1,83 @@
+body{
+    background-color: green;
+}
+#shopping{
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+text-align: center;
+font-weight: bolder;
+flex-wrap: wrap;
+}
+h1{
+    text-align: center;
+}
+.item{
+    border: 1px solid black;
+    width: 24%;
+}
+.price{
+    background-color: darkgray;
+    display: flex;
+    justify-content: space-around;
+}
+.hide{
+    display: none;
+}
+.show{
+    display: block;
+}
+table{
+    border-collapse: collapse;
+    margin-top: 30px;
+    background-color: burlywood;
+    margin-left: auto;
+    margin-right: auto;
+}
+th, td {
+    padding: 15px;
+}
+th{
+    background-color: rgb(107, 106, 102);
+    color: white;
+}
+td img{
+    border-radius: 20px;
+    background-color: burlywood;
+}
+.pay{
+    background-color: green;
+    color: white;
+    border-radius: 5px;
+    width: 105px;
+    padding: 10px;
+}
+#tfoot{
+    background-color: rgb(107, 106, 102);
+    color: white;
+}
+
+@media screen and (max-width: 600px) {
+    th, td {
+        padding: 2px;
+    }
+    th{
+        background-color: rgb(107, 106, 102);
+        color: white;
+    }
+    td img{
+        width: 100px;
+        height: 100px;
+        border-radius: 10px;
+        background-color: burlywood;
+    }
+    td input{
+        width: 3vh;
+    }
+    .pay{
+        background-color: green;
+        color: white;
+        border-radius: 5px;
+        width: 65px;
+    }
+}

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>JQuery Task 3</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+<body>
+    <form onsubmit="return ">
+        <h1>Registration Form</h1>
+        <label for="fname">First Name</label><br/>
+        <input type="text" id="fname"><br/>
+        <label class="error hide" id="err_fname" ></label><br>
+
+        <label for="lname">Last Name</label><br/>
+        <input type="text" id="lname"><br/>
+        <label class="error label hide" id="err_lname" ></label><br>
+
+        <label for="email">Email:</label><br/>
+        <input type="email" name="email" id="email"><br/>
+        <label class="error label hide" id="err_email" ></label><br>
+
+        <label for="password">Password:</label><br/>
+        <input type="password" name="password" id="password"><br/>
+        <label class="error label hide" id="err_password" ></label><br>
+
+        <label for="confirm_password">Confirm Password:</label><br/>
+        <input type="password" name="conf_pass" id="conf_pass"><br>
+        <label class="error label hide" id="err_conf_pass" ></label><br>
+
+        <input id="submit" type="submit" value="SUBMIT">
+    </form>
+    <script src="index.js"></script>
+</body>
+</html>

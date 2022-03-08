@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS TASK 7</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="container">
+    <form onsubmit="return myFunction()" action="new.html">
+        <h1>Fill the form</h1>
+        <label class="label" for="name">Name</label><br/>
+        <input type="text" name="" id="name" oninput="clear_msg()"><br/>
+        <label class="error label" id="err_name" ></label>
+        <br/>
+        <label class="label" for="age">Age</label><br/>
+        <input type="text" name="" id="age" oninput="clear_msg()"><br/>
+        <label class="error label" id="err_age"></label>
+        <br/>   
+        <label class="label" for="email">Email</label><br/>
+        <input type="text" name="" id="email" oninput="clear_msg()"><br/>
+        <label class="error label" id="err_email"></label>
+        <br/>
+        <label class="label" for="phone">Phone no.</label><br/>
+        <input type="text" name="" id="phone" oninput="clear_msg()"><br/>
+        <label class="error label" id="err_phone"></label>
+        <br/>
+        <label class="label" for="city" name="">City</label><br/>
+        <select name="city" id="city">
+            <option value="lucknow">Lucknow</option>
+            <option value="pune">Pune</option>
+            <option value="bangalore">Bangalore</option>
+            <option value="gurgaon">Gurgaon</option>
+        </select><br/>
+        <label class="label" for="hobbies">Hobbies</label><br/>
+        Gaming<input type="checkbox" id="gaming" value="gaming" onclick="clear_msg()">
+        Cricket<input type="checkbox" id="cricket" value="cricket" onclick="clear_msg()">
+        Football<input type="checkbox" id="football" value="football" onclick="clear_msg()"><br/>
+        <label class="error label" id="err_hobbies"></label>
+        <br/>
+        <input type="submit" value="Submit">
+    </form>
+</div>
+    
+<script src="index.js"></script>
+</body>
+</html>

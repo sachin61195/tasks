@@ -1,0 +1,58 @@
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title>Movies</title>
+	<script src="https://code.jquery.com/jquery-3.5.1.js">
+	</script>
+	<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+	<div id="topbar">
+		<h1>Movies</h1>
+		<button type="button" onclick="displayMovies()">Show Movies</button>
+		<button type="button" id = "add_movie">Add Movies</button>
+		<button type="button" id = "deleteMovies" >Delete Movies</button>
+		<button type="button" id = "searchMovies" >Search Movies</button>
+	</div>
+	<div id="searchbar">
+		<input type="text" id="searchtitle" oninput="search()" placeholder="Search By Movie">
+		<input type="text" id="searchyear" oninput="search()" placeholder="Search By Year">
+	</div>
+	<div id="delete_movie">
+		<input type="number" id="selected_movie">
+		<button type="button" onclick="deleteMovies()">Delete</button>
+	</div>
+	<div id="form">
+		<form id="form1" method="POST">
+			<label for="title">Title</label><br />
+			<input type="text" name="title" id="title"><br />
+			<label for="duration">Duration</label><br />
+			<input type="text" name="duration" id="duration"><br />
+			<label for="year">Year</label><br />
+			<input type="number" name="year" id="year"><br />
+			<label for="poster">Poster</label><br />
+			<input type="file" name="file-input" id="poster" value="" class="file validate[required]"><br />
+			<label for="imdb">IMDB rating</label><br />
+			<input type="number" name="imdb" id="imdb" min="0" max="10" step="any"><br />
+			<input type="submit">
+		</form>
+	</div>
+	<table>
+		<thead id="thead">
+			<th>S No.</th>
+			<th>Title</th>
+			<th>Duration</th>
+			<th>Year</th>
+			<th>Poster</th>
+			<th>IMDB Rating</th>
+		</thead>
+		<tbody id="tbody">
+
+		</tbody>
+	</table>
+	<script src="index.js"></script>
+</body>
+
+</html>

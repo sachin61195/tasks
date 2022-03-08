@@ -1,0 +1,16 @@
+h4{
+    text-align: center;
+    word-break: break-all;
+    color: white;
+    background-color: rgb(140, 217, 240);
+}
+.container{
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    text-align: center;    
+    background-color: navajowhite;
+}
+body{
+    background-color: rgb(47, 107, 74);
+}

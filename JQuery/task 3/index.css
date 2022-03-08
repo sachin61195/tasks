@@ -1,0 +1,36 @@
+body{
+    background-color: rgb(16, 52, 77);
+}
+form{
+    display: block;
+    background-color: rgb(41, 128, 168);
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    text-align: center;
+    border-radius: 20px;
+    font-size: larger;
+    color: white;
+}
+h1{
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+input{
+    margin-top: 10px;
+    border-radius: 5px;
+    height: 30px;
+}
+input[type="submit"]{
+    color: white;
+    background-color: green;
+    font-weight: bolder;
+}
+.hide{
+    display: none;
+}
+.error{
+    color: red ;
+}
