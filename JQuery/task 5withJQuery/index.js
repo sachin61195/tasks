@@ -119,11 +119,11 @@ $("#delete_data").click(function(e){
       if(id1===+tr[i].id)
       {
        tr[i].remove();
-       status=true
+       status=true;
       }
    }
    if(status==false)
-   alert("This Id does not exits");
+   alert("This id does not exits");
   
  });
 
